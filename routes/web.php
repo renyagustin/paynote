@@ -18,3 +18,4 @@ Route::group(['middleware' => 'web'], function () {
 
 // Dashboard Route
 Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
+
